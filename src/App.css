@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home{
+  background-image: url(./images//mobile1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 10%;
+  height: 110vh;
+}
+
+.box-container{
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 720px) {
+  .home {
+    background: linear-gradient(137.8deg, #121212 0%, #2176B9 388.03%);
+  }
+  .box-container{
+    margin-top: 4rem;
+  }
+  .whaleFundr{
+    font-size: 1.3rem;
+  }
+}
+
+.MainContainer{
+  background-color: #121212;
+  height: auto;
+}
+
